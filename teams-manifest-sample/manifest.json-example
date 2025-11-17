@@ -1,0 +1,57 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.16",
+  "version": "1.0.0",
+  "id": "YOUR_BOT_ID_HERE",
+  "packageName": "com.yourcompany.yourbot",
+  "developer": {
+    "name": "Your Company Name",
+    "websiteUrl": "https://your-app-name.azurewebsites.net",
+    "privacyUrl": "https://your-app-name.azurewebsites.net/privacy",
+    "termsOfUseUrl": "https://your-app-name.azurewebsites.net/terms"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "Your Bot Name",
+    "full": "Your Full Bot Name"
+  },
+  "description": {
+    "short": "AI-powered chat bot",
+    "full": "An intelligent AI chat bot powered by Azure OpenAI for Teams conversations"
+  },
+  "accentColor": "#FFFFFF",
+  "bots": [
+    {
+      "botId": "YOUR_AZURE_BOT_ID_HERE",
+      "scopes": [
+        "personal",
+        "team",
+        "groupchat"
+      ],
+      "supportsFiles": false,
+      "isNotificationOnly": false,
+      "commandLists": [
+        {
+          "scopes": [
+            "personal",
+            "team",
+            "groupchat"
+          ],
+          "commands": [
+            {
+              "title": "help",
+              "description": "Get help using the bot"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "permissions": [],
+  "validDomains": [
+    "your-app-name.azurewebsites.net"
+  ]
+}

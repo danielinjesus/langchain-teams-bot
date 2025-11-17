@@ -1,0 +1,23 @@
+.env
+__pycache__/
+*.pyc
+venv/
+.venv/
+ngrok.exe
+ngrok*.zip
+
+# Azure and deployment files
+.azure/
+.deployignore
+
+# Backup files
+backup/
+main_new
+main_original_gpt_BotFrameworkAdapterSettings.py
+
+# Zip files
+*.zip
+
+# Teams manifest (keep only sample)
+teams-manifest/
+teams-manifest-sample/manifest.json
