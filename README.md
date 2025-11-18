@@ -2,6 +2,8 @@
 
 During a "Build Agent with LangChain" project class, a customer employee needed to ship her ERP-connected LangChain app into Teams for easier internal use. With help from Microsoft Support, I got it working.
 
+<img width="739" height="463" alt="langchain-teams-bot" src="https://github.com/user-attachments/assets/625dd732-d99f-42a6-b834-17a824a4afa6" />
+
 ## Setup Guide
 
 ### 1. Write Agent Code
