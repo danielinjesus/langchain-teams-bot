@@ -79,7 +79,7 @@ Add these in: Azure Portal → App Service → Configuration → Application set
 
 - `main.py` - Bot application entry point with Bot Framework adapter
 - `requirements.txt` - Python dependencies
-- `teams-manifest-sample/` - Teams app manifest template to be uploaded at Teams Admin Center
+- `teams-manifest-sample/` - Teams app manifest template to be uploaded at Teams Admin Center after compressing to a .zip file. 
 - `.env_sample` - Environment variables template
 
 ## License
